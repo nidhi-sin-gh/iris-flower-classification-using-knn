@@ -1,0 +1,5 @@
+K-Nearest Neighbors (KNN) is a simple machine learning algorithm used for classification and regression tasks. The algorithm is based on the principle that similar instances are close to each other in the feature space. The KNN algorithm works by finding the k number of nearest points based on the distance metric and assigns the class label based on the majority of the k neighbors. The distance metric used to find the nearest neighbors can be Euclidean distance, Manhattan distance, Minkowski distance, etc.
+
+In the case of the Iris Flower Classification problem, the KNN algorithm is used to find the k nearest neighbors of a new Iris flower based on its sepal length, sepal width, petal length, and petal width. The algorithm finds the k nearest neighbors based on the distance metric and assigns the class label based on the majority of the k neighbors.
+
+KNN is a non-parametric algorithm, which means it doesn't make any assumptions about the underlying distribution of the data. It's also an instance-based learning algorithm, which means it memorizes the training dataset instead of learning a function that maps the input to the output.
